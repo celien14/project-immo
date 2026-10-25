@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Répertoire Immo</title>
+<style>
+  :root { --bg:#f7f6f3; --card:#fff; --ink:#1d1d1f; --mute:#6b6b70; --line:#e6e4df; --accent:#0b6e4f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141416; --card:#1d1d20; --ink:#ececee; --mute:#9a9aa1; --line:#2c2c31; --accent:#3ccf91; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:1100px; margin:0 auto; padding:32px 16px; }
+  h1 { margin:0 0 4px; font-size:28px; }
+  .sub { color:var(--mute); margin:0 0 24px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-bottom:24px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; color:var(--mute); font-size:13px; }
+  .stat .n { display:block; font-size:24px; font-weight:650; color:var(--ink); }
+  .wrap { overflow-x:auto; background:var(--card); border:1px solid var(--line); border-radius:12px; }
+  table { width:100%; border-collapse:collapse; min-width:720px; }
+  th, td { text-align:left; padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--mute); }
+  tr:last-child td { border-bottom:0; }
+  .num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  a { color:var(--accent); text-decoration:none; font-weight:550; }
+  .meta { color:var(--mute); font-size:12px; }
+  .badge { font-size:12px; padding:3px 8px; border-radius:99px; border:1px solid var(--line); white-space:nowrap; }
+  .badge.contacte, .badge.dossier_envoye { border-color:#3b82f6; color:#3b82f6; }
+  .badge.visite { border-color:#d97706; color:#d97706; }
+  .badge.accepte { border-color:var(--accent); color:var(--accent); }
+  .badge.refuse { color:var(--mute); text-decoration:line-through; }
+  .vide { padding:24px; color:var(--mute); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Répertoire Immo</h1>
+  <p class="sub">1 annonce(s) suivie(s) · mis à jour le 25/10/2026 à 12:12</p>
+  <section class="stats"><div class="stat"><span class="n">0</span>À contacter</div><div class="stat"><span class="n">1</span>Contacté</div><div class="stat"><span class="n">0</span>Visite prévue</div><div class="stat"><span class="n">0</span>Dossier envoyé</div><div class="stat"><span class="n">0</span>Refusé</div><div class="stat"><span class="n">0</span>Accepté</div></section>
+  <div class="wrap">
+    <table><thead><tr><th class='num'>#</th><th>Annonce</th><th>Ville</th><th class='num'>Loyer</th><th class='num'>Surface</th><th class='num'>Prix/m²</th><th>Statut</th></tr></thead><tbody>
+      <tr>
+        <td class="num">1</td>
+        <td><a href="https://www.leboncoin.fr/..." target="_blank" rel="noopener">Studio 25 m²</a>
+            <div class="meta">leboncoin · ajoutée le 2026-10-25</div></td>
+        <td>Issy</td>
+        <td class="num">1050 €</td>
+        <td class="num">25 m²</td>
+        <td class="num">42.0 €/m²</td>
+        <td><span class="badge contacte">Contacté</span></td>
+      </tr></tbody></table>
+  </div>
+</main>
+</body>
+</html>

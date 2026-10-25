@@ -1,0 +1,5 @@
+# Configuration Netlify : "publie le dossier site/ tel quel, sans étape de build".
+# Le site est généré en local avec `uv run main.py build`, puis commité.
+[build]
+  publish = "site"
+  command = ""

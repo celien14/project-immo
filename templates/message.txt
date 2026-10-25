@@ -1,0 +1,13 @@
+Bonjour,
+
+Votre annonce « {titre} » à {ville} a retenu toute mon attention et je serais ravi de pouvoir la visiter.
+
+Je m'appelle {nom} et je travaille chez GitGuardian, éditeur de logiciels de cybersécurité basé à Paris 1er. Je cherche un logement proche du bureau pour m'y installer durablement.
+
+Mon dossier complet et vérifié est consultable ici (DossierFacile) : {lien_dossier}
+Des garants physiques sont disponibles.
+
+Je suis joignable au {telephone} et disponible pour une visite dès cette semaine, y compris en soirée.
+
+Bien cordialement,
+{nom}

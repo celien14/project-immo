@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.leboncoin.fr/...",
+    "titre": "Studio 25 m²",
+    "prix": 1050,
+    "surface": 25.0,
+    "ville": "Issy",
+    "source": "leboncoin",
+    "statut": "contacte",
+    "notes": "",
+    "ajoutee_le": "2026-10-25"
+  }
+]

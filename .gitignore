@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets et infos perso : ne JAMAIS commiter
+.env
+.env.*
+!.env.example
+
+# Éditeur / OS
+.vscode/
+.DS_Store
+Thumbs.db
